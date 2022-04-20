@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class Consumer {
+public class Consumer1 {
     public static void main(String[] args) throws IOException, InterruptedException {
         KafkaConsumer<String, String> consumer;
         try (InputStream props = Resources.getResource("consumer.properties").openStream()) {
